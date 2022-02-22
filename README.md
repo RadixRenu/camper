@@ -1,0 +1,2 @@
+# camper
+Camp Management System
