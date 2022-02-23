@@ -2,7 +2,7 @@ import React from "react";
 import Cards from "./Cards";
 import Navbar from "./Navbar";
 import SideNav from "./SideNav";
-let CampOperatorDash=()=>
+let AdminDash=()=>
 {
   return(
     <React.Fragment>
@@ -23,5 +23,5 @@ let CampOperatorDash=()=>
     </React.Fragment>
   )
 }
-export default CampOperatorDash
+export default AdminDash
 

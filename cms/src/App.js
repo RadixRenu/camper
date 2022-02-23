@@ -1,16 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import header from './screens/admin-screen/common/header';
-import Header from './screens/admin-screen/common/header';
-import campOperatorDash from './screens/camp-operator/campOperatorDash';
-import { Button } from '@mui/material';
-import ResponsiveDrawer from './screens/camp-operator/campOperatorDash';
+import CampOperatorDash from './screens/camp-operator/CampOperatorDash';
+import AdminDash from './screens/admin-section/AdminDash';
 function App() {
   return (
    <React.Fragment>
-     {/* <Header/> */}
-     <ResponsiveDrawer/>
+     {/* <CampOperatorDash/> */}
+     <AdminDash/>
      </React.Fragment>
   );
 }
