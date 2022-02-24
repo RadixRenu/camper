@@ -8,16 +8,17 @@ let AdminDash=()=>
     <React.Fragment>
       
       <Navbar/>
-      <div className="row">
-        <div className="col-md-3">
-          <SideNav/>
-        </div>
-        <div className="col-md-8 ">
-          <div className="container mt-5">
-          <Cards/>
+      <div className="container-fluid ">
+        <div className="row">
+          <div className="col-md-3">
+            <SideNav/>
+          </div>
+          <div className="col-md-8 ">
+            <div className="container mt-5">
+            <Cards/>
+            </div>
           </div>
         </div>
-
       </div>
       
     </React.Fragment>

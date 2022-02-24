@@ -8,16 +8,17 @@ let CampOperatorDash=()=>
     <React.Fragment>
       
       <Navbar/>
-      <div className="row">
-        <div className="col-3">
-          <SideNav/>
-        </div>
-        <div className="col-9">
-          <div className="container mt-5">
-          <Cards/>
+      <div className="container-fluid">
+           <div className="row">
+              <div className="col-md-3 ">
+                <SideNav/>
+              </div>  
+              <div className="col-md-9">
+              <div className="container-fluid mt-5">
+                <Cards/>
+              </div>
           </div>
         </div>
-
       </div>
       
     </React.Fragment>

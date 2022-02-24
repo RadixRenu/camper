@@ -3,7 +3,7 @@ import React from 'react';
 let Cards=()=> {
     return ( 
         <React.Fragment>
-            <div className='row  '>
+            <div className='row'>
                 <div className='col-md'>
                     <div className='card'>
                         <div className='card-header bg-info text-center '>

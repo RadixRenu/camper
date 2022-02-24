@@ -1,34 +1,33 @@
 import React from 'react';
-import { GiBarracksTent } from "react-icons/gi";
+//======Imported icons from react icons=========//
 import { IoPersonCircleSharp } from "react-icons/io5";
+import { BsBuilding } from "react-icons/bs";
+//======Import end==============================//
 let Navbar =()=>
 {
     return(
         <React.Fragment>
-           <div className=''>
-                <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                    <div class="container-fluid">
-                         <h2 class=" .h2 navbar-brand "> <GiBarracksTent size={40} className="mr-4"/> Admin Dash</h2>
-                     </div>
-                     <div className='row me-3'>
-                         <div className='col-6'>
-                         <p className='text-bold text-center text-white'>Welcome Admin</p>
-                         </div>
-                         <div className='col-6'>
-                             <div className='dropdown'>
-                                 <button className='btn' type='btn'>
-                                 <IoPersonCircleSharp className=" dropdown-toggle" type='button' color='white' size={40}/>
-                                 </button>
-                                 <ul class="dropdown-menu" >
-                                 <li><a class="dropdown-item" href="#">Action</a></li>
-                                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                 </ul>
-                             </div>
-                         </div>
-                     </div>
-                 </nav>
-            </div>
+            <nav class="navbar navbar-dark bg-primary">
+                <div class="container-fluid">
+                    {/* Navbar brand name  */}
+                    <BsBuilding size={40} className="navbar-brand"/>
+                    {/* Navbar text  */}
+                    <h2 class="navbar-text text-white"> Admin Dashboard</h2>
+                    {/* profile/Logout dropdown */}
+                    <form class="d-flex me-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <IoPersonCircleSharp color='white' size={40}/>
+                        </a>
+                        <ul className="dropdown-menu" >
+                                <li><a className="dropdown-item" href="#">Action</a></li>
+                                <li><a className="dropdown-item" href="#">Another action</a></li>
+                                <li><hr className="dropdown-divider" /></li>
+                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                            </ul>      
+                    </form>
+                    {/* Dropdown end */}
+                </div>
+            </nav>
         </React.Fragment>
     )
 }
