@@ -9,10 +9,10 @@ let AdminDash=()=>
       
       <Navbar/>
       <div className="row">
-        <div className="col-3">
+        <div className="col-md-3">
           <SideNav/>
         </div>
-        <div className="col-9">
+        <div className="col-md-8 ">
           <div className="container mt-5">
           <Cards/>
           </div>

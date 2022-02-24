@@ -5,16 +5,16 @@ let Navbar =()=>
 {
     return(
         <React.Fragment>
-           <div className='ml-2'>
+           <div className=''>
                 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                     <div class="container-fluid">
                          <h2 class=" .h2 navbar-brand "> <GiBarracksTent size={40} className="mr-4"/> Admin Dash</h2>
                      </div>
                      <div className='row me-3'>
-                         <div className='col'>
+                         <div className='col-6'>
                          <p className='text-bold text-center text-white'>Welcome Admin</p>
                          </div>
-                         <div className='col'>
+                         <div className='col-6'>
                              <div className='dropdown'>
                                  <button className='btn' type='btn'>
                                  <IoPersonCircleSharp className=" dropdown-toggle" type='button' color='white' size={40}/>
