@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 
 let Header=()=>
@@ -112,3 +113,14 @@ export default Header
 //     </Box>
 //   );
 // }
+=======
+import React from 'react'
+
+function header() {
+  return (
+    <div>header</div>
+  )
+}
+
+export default header;
+>>>>>>> 2892bd8 (created registration form and user table)
