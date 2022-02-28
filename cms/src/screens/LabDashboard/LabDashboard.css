@@ -1,0 +1,52 @@
+  /* .sidebarcss{
+      height: 100vh;
+      width: auto;
+      position: fixed;
+      width: 200px;
+  } */
+
+  .nav_css{
+      position: fixed;
+      width: 100%;
+  }
+
+  .sidebar_css{
+      margin-top: 66px;
+      
+      position: fixed;
+  }
+  .sidebar_css1{
+    height: 100vh;
+  }
+
+  /* .searchbar_css{
+    position: fixed;
+  }
+  .searchbar1_css{
+    margin-top: 65px;
+    margin-left: 810px;
+  } */
+
+  .table_css{
+    margin-top:70px;
+  }
+  .dropdown_css{
+      color: white;
+  }
+
+
+  @media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+    .sidebar_css1{
+        height: 50px;
+      }
+      .table_css{
+        margin-top:100px;
+      }
+      .nav_css{
+        position: fixed;
+        width: 100%;
+        overflow: hidden;
+    }
+  
+}
