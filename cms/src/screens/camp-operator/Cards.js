@@ -1,8 +1,8 @@
 import React from 'react';
 
-let Cards=()=> {
+function Cards() {
     return ( 
-        <React.Fragment>
+        
             <div className='row'>
                 <div className='col-md'>
                     <div className='card'>
@@ -35,7 +35,7 @@ let Cards=()=> {
                     </div>
                 </div>
             </div>
-        </React.Fragment>
+        
      );
 }
 

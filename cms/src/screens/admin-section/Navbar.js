@@ -15,6 +15,7 @@ let Navbar =()=>
                     <h2 class="navbar-text text-white"> Admin Dashboard</h2>
                     {/* profile/Logout dropdown */}
                     <form class="d-flex me-2">
+                        
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         <IoPersonCircleSharp color='white' size={40}/>
                         </a>

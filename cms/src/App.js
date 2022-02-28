@@ -8,9 +8,9 @@ import Login from './screens/login/Login';
 function App() {
   return (
    <React.Fragment>
-     {/* <Login/> */}
+     <Login/>
      {/* <CampOperatorDash/> */}
-     <AdminDash/>
+     {/* <AdminDash/> */}
      </React.Fragment>
   );
 }

@@ -1,13 +1,14 @@
 import React from "react";
 import Cards from "./Cards";
-import Navbar from "./Navbar";
+import Navigation from "./Navbar";
+
 import SideNav from "./SideNav";
 let CampOperatorDash=()=>
 {
   return(
     <React.Fragment>
       
-      <Navbar/>
+      <Navigation/>
       <div className="container-fluid">
            <div className="row">
               <div className="col-md-3 ">

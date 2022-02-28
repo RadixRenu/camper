@@ -1,34 +1,34 @@
 import React from 'react';
-//======Imported icons from react icons=========//
 import { IoPersonCircleSharp } from "react-icons/io5";
-import { BsBuilding } from "react-icons/bs";
-//======Import end==============================//
-let Navbar =()=>
+import Navbar from 'react-bootstrap/Navbar';
+import Form from 'react-bootstrap/Form';
+import Dropdown from 'react-bootstrap/Dropdown';
+import { Container, Nav } from 'react-bootstrap';
+
+let Navigation =()=>
 {
     return(
         <React.Fragment>
-            <nav class="navbar navbar-dark bg-primary">
-                <div class="container-fluid">
-                    {/* Navbar brand name  */}
-                    <BsBuilding size={40} className="navbar-brand"/>
-                    {/* Navbar text  */}
-                    <h2 class="navbar-text text-white"> Camp Dashboard</h2>
-                    {/* profile/Logout dropdown */}
-                    <form class="d-flex me-2">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <IoPersonCircleSharp color='white' size={40}/>
-                        </a>
-                        <ul className="dropdown-menu" >
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><hr className="dropdown-divider" /></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
-                            </ul>      
-                    </form>
-                    {/* Dropdown end */}
-                </div>
-            </nav>
+          <Navbar bg="primary" expand="lg"> 
+  <Container fluid> 
+    <Navbar.Brand href="#" >Camp Operator</Navbar.Brand>   
+      <Form >  
+        <Dropdown >
+          <Dropdown.Toggle  variant="light"  id="dropdown-basic" size="sm">
+          <IoPersonCircleSharp color='black' size={40}/> Welcome User 
+          </Dropdown.Toggle>
+
+          <Dropdown.Menu align="end">
+            <Dropdown.Item href="#/action-1">View Profile</Dropdown.Item>
+            <Dropdown.Item href="#/action-2">Log out</Dropdown.Item>
+            
+          </Dropdown.Menu>
+        </Dropdown>      
+        </Form>
+            
+        </Container>
+        </Navbar>
         </React.Fragment>
     )
 }
-export default Navbar
+export default Navigation
