@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import Header from './screens/admin-screen/common/header';
+import CampOperatorDash from './screens/camp-operator/CampOperatorDash';
+import AdminDash from './screens/admin-section/AdminDash';
+import Login from './screens/login/Login';
+
 function App() {
   return (
    <React.Fragment>
-    <Header/>
+     <Login/>
+     {/* <CampOperatorDash/> */}
+     {/* <AdminDash/> */}
      </React.Fragment>
   );
 }
